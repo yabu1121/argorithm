@@ -18,7 +18,7 @@ void bubble_sort(vector<int> &vec){
 }
 
 int main(){
-  vector<int> x = {5, 2, 4, 1, 3};
+  vector<int> x = {1, 10, 3, 2, 7, 9, 8, 4, 5, 6};
   int n = x.size();
   bubble_sort(x);
   for(int i = 0; i < n; i++){
